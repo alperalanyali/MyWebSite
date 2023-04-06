@@ -1,0 +1,32 @@
+.primary{
+    font-size: 48px;
+    text-transform: uppercase;
+    color:#111;
+    font-weight: 800;
+}
+.primary-text{
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;   
+}
+.btn-container{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.button{
+    background-color: #facf0f;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0/ 15%);
+    transition: transform .3s;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 30px;
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" style="margin-top:50px"  *ngFor="let project of projects">
+            <div class="card" style="width: 18rem;" style="height:500px">
+                <img src="{{project.imageUrl}}" style="height:250px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{project.name}}</h5>
+                  <p class="card-text">{{project.description}}</p>
+                  <a  *ngIf="!project.isRouterLink" href="{{project.path}}" target="_blank" class="btn btn-outline-primary" style="float:right">Go page</a>
+                  <a  *ngIf="project.isRouterLink" routerLink="/{{project.path}}" target="_blank" class="btn btn-outline-primary" style="float:right">Go page</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>

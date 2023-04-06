@@ -1,0 +1,9 @@
+.img{
+    width:50px;
+    border-radius: 50%;
+}
+
+a:hover{
+    color:#facf0f !important;
+    font-size: 1.5rem;
+}
